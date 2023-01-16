@@ -4,7 +4,7 @@
   right: 35px;
   top: 35px;
   cursor: pointer;
-  @iclude easeOut; }
+  transition: all 1.5s ease-out; }
   .menu-btn .btn-line {
     width: 28px;
     height: 3px;
