@@ -12,7 +12,7 @@
     background: #ffff;
     transition: all 1.5s ease-out; }
   .menu-btn.close {
-    transform: rotate(80deg); }
+    transform: rotate(180deg); }
 
 * {
   box-sizing: border-box; }
