@@ -16,7 +16,7 @@ cursor: pointer;
     @include easeOut;
 }
 //Rotate Into X menu lines
-&.close{
-    transform: rotate(180degree);
+&.close {
+    transform: rotate(80deg);
 }
 }
