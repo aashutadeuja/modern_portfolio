@@ -2,13 +2,13 @@
 
 const menuBtn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
-const menuBranding = document.querySelector('menu.branding');
 const menuNav = document.querySelector('.menu-nav');
+const menuBranding = document.querySelector('.menu-branding');
 const navItems = document.querySelectorAll('.nav-item');
 
 //Set initial state of menu
 let showMenu = false;
-menuBtn.addEventListener('Click', toggleMenu);
+menuBtn.addEventListener('click', toggleMenu);
 function toggleMenu() {
     if(!showMenu){
     menuBtn.classList.add('close');
