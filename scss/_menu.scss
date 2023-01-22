@@ -107,7 +107,7 @@ cursor: pointer;
         }
 
         .nav-item {
-            transform: translate3d(600px, 0px, 0px);
+            transform: translate3d(600px, 0, 0);
             @include easeOut;
 
             &.show {
